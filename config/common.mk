@@ -304,6 +304,11 @@ PRODUCT_PACKAGES += \
     NetworkStackOverlay \
     PermissionControllerOverlay
 
+# LMO Freeform
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # Translations
 CUSTOM_LOCALES += \
     ast_ES \
