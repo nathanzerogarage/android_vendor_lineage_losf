@@ -330,7 +330,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Kawase2
 PRODUCT_VENDOR_PROPERTIES += \
-    debug.renderengine.blur_algorithm=kawase2
+    debug.renderengine.blur_algorithm=kawase2_fix_aliasing
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
